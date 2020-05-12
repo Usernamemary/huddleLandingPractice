@@ -42,7 +42,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 3%;
-  vertical-align: bottom;
+  align-items: flex-end;
 }
 .logo {
   width: 120px;
