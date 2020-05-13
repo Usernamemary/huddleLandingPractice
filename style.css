@@ -136,9 +136,32 @@ ul {
 }
 li {
   list-style: none;
+  line-height: 2;
 }
 #copy {
   margin: 20px;
   align-items: baseline;
   padding-top: 80px;
+}
+/*Mobile*/
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  .card,
+  .card-intro,
+  footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-intro {
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+  }
+  .text-intro,
+  .image {
+    width: 90%;
+  }
 }
